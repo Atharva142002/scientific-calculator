@@ -1,0 +1,65 @@
+.calculator {
+    background-color: #1c1c1e;
+    border-radius: 10px;
+    padding: 20px;
+    width: 320px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .display {
+    background-color: #2c2c2e;
+    color: white;
+    font-size: 36px;
+    text-align: right;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    min-height: 60px;
+  }
+  
+  .keypad {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+  }
+  
+  .calculator-button {
+    background-color: #3a3a3c;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 18px;
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .calculator-button:hover {
+    background-color: #4a4a4c;
+  }
+  
+  .button-operation {
+    background-color: #ff9500;
+  }
+  
+  .button-function {
+    background-color: #5e5e5e;
+  }
+  
+  .button-number {
+    background-color: #4a4a4c;
+  }
+  
+  .button-clear, .button-delete {
+    background-color: #d4d4d2;
+    color: black;
+  }
+  
+  .button-calculate {
+    background-color: #ff9500;
+    grid-column: span 2;
+    width: 100%;
+    border-radius: 30px;
+  }
